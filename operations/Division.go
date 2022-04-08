@@ -14,7 +14,7 @@ func Div(c int64) int64 {
 	}
 	test, err := strconv.ParseInt(num, 0, 64)
 	if err != nil {
-		fmt.Println("str conversion error")
+		fmt.Println("string conversion error")
 	}
 	fmt.Println(num)
 	c = c / test

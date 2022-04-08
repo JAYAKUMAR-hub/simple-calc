@@ -22,7 +22,7 @@ func Num() int64 {
 		}
 		test, err := strconv.ParseInt(a, 0, 64)
 		if err != nil {
-			fmt.Println("str conversion error")
+			fmt.Println("string conversion error")
 			continue
 		}
 		if c == 0 {
@@ -66,7 +66,7 @@ func Eval(b string) int64 {
 			d = 0
 			break
 		default:
-			fmt.Println("Invalid")
+			fmt.Println("INVALID")
 		}
 	} else if b == "=" {
 		fmt.Println("The result is: ", d)
