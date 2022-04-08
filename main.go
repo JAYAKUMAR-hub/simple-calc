@@ -66,7 +66,7 @@ func Eval(b string) int64 {
 			d = 0
 			break
 		default:
-			fmt.Println("Invalid")
+			fmt.Println("INVALID")
 		}
 	} else if b == "=" {
 		fmt.Println("The result is: ", d)
